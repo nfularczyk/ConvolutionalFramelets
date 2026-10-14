@@ -1,0 +1,15 @@
+name: convFrame
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-image
+  - pillow
+  - pytest
+  - jupyter
+  - ipykernel
+  - ipywidgets
+  - nbconvert

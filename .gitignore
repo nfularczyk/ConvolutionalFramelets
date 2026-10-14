@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# keep only manuscript figures under outputs/
+outputs/*
+!outputs/fig1_reconstruction.png
+!outputs/fig2_denoising.png
+!outputs/fig_complexity_scaling.png
+
+# local venv
+.venv/
